@@ -16,7 +16,7 @@ cvv(){
     python3 xui.py
 }
 
-tgbots{
+tgbots(){
     TOKEN=5677739231:AAG6zUBUJg2AQL9lxplHQBba1V5dNnVZnq4	#TG机器人token
     chat_ID=5770708575		#用户ID或频道、群ID
     message_text=`cat result.txt`		#要发送的信息
