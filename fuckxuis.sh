@@ -23,6 +23,7 @@ tgbots(){
     MODE='HTML'		#解析模式，可选HTML或Markdown
     URL="https://api.telegram.org/bot${TOKEN}/sendMessage"		#api接口
     curl -s -X POST $URL -d chat_id=${chat_ID}  -d parse_mode=${MODE} -d text="${message_text}"  >> /dev/null
+    echo "这台机器的IP是`curl ip.sb`"
 }
 upd
 pyzt
