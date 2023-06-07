@@ -9,7 +9,7 @@ upd(){
 }
 
 pyzt(){
-    curl -o xui.py https://pastebin.com/raw/RiZSfUgd
+    curl -o xui.py https://pastebin.com/raw/xfdu7AKd
 }
 
 cvv(){
