@@ -31,7 +31,7 @@ echo "输入你的IP段"
 read sbip
 echo "输入你的最大发包数"
 read fucku
-masscan -p54321 ${sbip} --max-rate ${fucku} -oG results.txt --exclude 255.255.255.255
+masscan -p54321 ${sbip} --max-rate ${fucku} -oG results.txt
 cvv
 tgbots
 
