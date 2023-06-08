@@ -9,11 +9,11 @@ upd(){
 }
 
 pyzt(){
-    curl -o fuckxui.py https://pastebin.com/raw/qrSPXtZG
+    curl -o ifuckxui.py https://pastebin.com/raw/rB7HQSq7
 }
 
 cvv(){
-    python3 fuckxui.py
+    python3 ifuckxui.py
 }
 
 tgbots(){
